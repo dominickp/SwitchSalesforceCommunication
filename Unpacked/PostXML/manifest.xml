@@ -1,0 +1,12 @@
+<Manifest>
+    <ScripterInstanceName>Salesforce PostXML</ScripterInstanceName>
+    <ScriptPackageFormatVersion>1.0</ScriptPackageFormatVersion>
+    <ScripterPassword></ScripterPassword>
+    <ScriptDeclarationFile>PostXML.xml</ScriptDeclarationFile>
+    <ScriptProgramFiles>
+        <ScriptProgramFile ScriptLanguage="JavaScript">PostXML.js</ScriptProgramFile>
+    </ScriptProgramFiles>
+    <ScriptIconFile>shaw_ico-curl.png</ScriptIconFile>
+    <AppleBinary></AppleBinary>
+    <LocalizationItems/>
+</Manifest>

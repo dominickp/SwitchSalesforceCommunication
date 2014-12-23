@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+    <ElementFields>
+        <Name Type="string" Editor="hide">Salesforce PostXML</Name>
+        <DisplayName Type="string" Editor="hide"/>
+        <Version Type="number" Editor="hide">1</Version>
+        <Keywords Type="string" Editor="hide"/>
+        <Tooltip Type="string" Editor="hide"/>
+        <IncomingConnections RequireAtLeastOne="Yes" Editor="hide">Yes</IncomingConnections>
+        <OutgoingConnections RequireAtLeastOne="Yes" DetailedInfo="" Editor="hide">Unlimited</OutgoingConnections>
+        <ConnectionType Editor="hide">TrafficLight</ConnectionType>
+        <ScriptFunctions Editor="hide">jobArrived</ScriptFunctions>
+        <ExecutionMode Editor="hide">Serialized</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Configurators</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide">&lt;ValueDescription Type="stringlist">&lt;Value>Custom&lt;/Value>&lt;/ValueDescription></SubcategoryInElementPane>
+        <DispositionInElementPane Type="number" Editor="hide"/>
+        <Description Type="string" Editor="hide"/>
+        <Compatibility Type="string" Editor="hide"/>
+        <SupportInfo Type="string" Editor="hide"/>
+        <AppDiscovery Type="string" Editor="hide"/>
+        <Connections Type="string" Editor="hide"/>
+        <SwitchModule Type="string" Editor="hide"/>
+        <ObsoleteProperties Type="string" Editor="hide"/>
+        <ObsoleteConnectionProperties Type="string" Editor="hide"/>
+        <ServicePath Validation="Standard" LocalizedTagName="Service Path" Subtype="inline" Default="/services/apexrest/Class/Method" Tooltip="/services/apexrest/Shipment/doPost/" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">/services/apexrest/Class/Method</ServicePath>
+        <GetTokenInstanceUrl Validation="Standard" LocalizedTagName="GetToken Instance URL" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></GetTokenInstanceUrl>
+        <GetTokenAccessToken Validation="Standard" LocalizedTagName="GetToken Access Token" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></GetTokenAccessToken>
+        <AdditionalPostKey1 Validation="None" LocalizedTagName="Additional Post Key 1" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></AdditionalPostKey1>
+        <AdditionalPostValue1 Validation="None" LocalizedTagName="Additional Post Value 1" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></AdditionalPostValue1>
+        <AdditionalPostKey2 Validation="None" LocalizedTagName="Additional Post Key 2" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></AdditionalPostKey2>
+        <AdditionalPostValue2 Validation="None" LocalizedTagName="Additional Post Value 2" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></AdditionalPostValue2>
+        <DebugLevel Validation="Standard" LocalizedTagName="Debug Level" Subtype="inline" Default="0" Tooltip="Set 1 to debug" DetailedInfo="" Type="enum:0;1" Editor="inline">0</DebugLevel>
+        <ResponsePrivateDataKey Validation="Standard" LocalizedTagName="Response Key" Subtype="inline" Default="PostXMLResponse" Tooltip="Resposne private data key" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">PostXMLResponse</ResponsePrivateDataKey>
+    </ElementFields>
+    <ConnectionFields>
+        <Success LocalizedTagName="Success out" Default="Yes" Type="bool" Editor="inline">Yes</Success>
+    </ConnectionFields>
+</Object>

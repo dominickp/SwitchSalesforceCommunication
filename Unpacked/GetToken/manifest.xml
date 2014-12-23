@@ -1,0 +1,12 @@
+<Manifest>
+    <ScripterInstanceName>Salesforce GetToken</ScripterInstanceName>
+    <ScriptPackageFormatVersion>1.0</ScriptPackageFormatVersion>
+    <ScripterPassword></ScripterPassword>
+    <ScriptDeclarationFile>GetToken.xml</ScriptDeclarationFile>
+    <ScriptProgramFiles>
+        <ScriptProgramFile ScriptLanguage="JavaScript">GetToken.js</ScriptProgramFile>
+    </ScriptProgramFiles>
+    <ScriptIconFile>shaw_ico-curl.png</ScriptIconFile>
+    <AppleBinary></AppleBinary>
+    <LocalizationItems/>
+</Manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+    <ElementFields>
+        <Name Type="string" Editor="hide">Salesforce GetToken</Name>
+        <DisplayName Type="string" Editor="hide"/>
+        <Version Type="number" Editor="hide">1</Version>
+        <Keywords Type="string" Editor="hide"/>
+        <Tooltip Type="string" Editor="hide"/>
+        <IncomingConnections RequireAtLeastOne="Yes" Editor="hide">Yes</IncomingConnections>
+        <OutgoingConnections RequireAtLeastOne="Yes" DetailedInfo="" Editor="hide">Unlimited</OutgoingConnections>
+        <ConnectionType Editor="hide">TrafficLight</ConnectionType>
+        <ScriptFunctions Editor="hide">jobArrived</ScriptFunctions>
+        <ExecutionMode Editor="hide">Serialized</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Configurators</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide">&lt;ValueDescription Type="stringlist">&lt;Value>Custom&lt;/Value>&lt;/ValueDescription></SubcategoryInElementPane>
+        <DispositionInElementPane Type="number" Editor="hide"/>
+        <Description Type="string" Editor="hide"/>
+        <Compatibility Type="string" Editor="hide"/>
+        <SupportInfo Type="string" Editor="hide"/>
+        <AppDiscovery Type="string" Editor="hide"/>
+        <Connections Type="string" Editor="hide"/>
+        <SwitchModule Type="string" Editor="hide"/>
+        <ObsoleteProperties Type="string" Editor="hide"/>
+        <ObsoleteConnectionProperties Type="string" Editor="hide"/>
+        <URL Validation="Standard" LocalizedTagName="URL" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></URL>
+        <Client_ID Validation="Standard" LocalizedTagName="Client ID" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></Client_ID>
+        <Username Validation="Standard" LocalizedTagName="Username" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></Username>
+        <Password Validation="Standard" LocalizedTagName="Password" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></Password>
+        <Client_Secret Validation="Standard" LocalizedTagName="Client Secret" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar"></Client_Secret>
+        <ResponseIdKey Validation="Standard" LocalizedTagName="Response ID Key" Subtype="inline" Default="GetTokenResponseID" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">GetTokenResponseID</ResponseIdKey>
+        <ResponseIssuedAtKey Validation="Standard" LocalizedTagName="Response Issued At Key" Subtype="inline" Default="GetTokenIssuedAt" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">GetTokenIssuedAt</ResponseIssuedAtKey>
+        <ResponseTokenTypeKey Validation="Standard" LocalizedTagName="Response Token Type Key" Subtype="inline" Default="GetTokenTokenType" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">GetTokenTokenType</ResponseTokenTypeKey>
+        <ResponseInstanceUrlKey Validation="Standard" LocalizedTagName="Response Instance Url Key" Subtype="inline" Default="GetTokenInstanceURL" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">GetTokenInstanceURL</ResponseInstanceUrlKey>
+        <ResponseSignatureKey Validation="Standard" LocalizedTagName="Response Signature Key" Subtype="inline" Default="GetTokenSignature" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">GetTokenSignature</ResponseSignatureKey>
+        <ResponseAccessTokenKey Validation="Standard" LocalizedTagName="ResponseAccessTokenKey" Subtype="inline" Default="GetTokenAccessToken" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">GetTokenAccessToken</ResponseAccessTokenKey>
+        <DebugLevel Validation="Standard" LocalizedTagName="Debug Level" Subtype="inline" Default="0" Tooltip="" DetailedInfo="" Type="enum:0;1" Editor="inline">0</DebugLevel>
+    </ElementFields>
+    <ConnectionFields>
+        <Success LocalizedTagName="Success out" Default="Yes" Type="bool" Editor="inline">Yes</Success>
+    </ConnectionFields>
+</Object>
